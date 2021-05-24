@@ -25,6 +25,6 @@ npm run serve
 
 #### 3、ui 参考了去哪儿网的百度地图选点弹窗，并不完全一致， https://hotel.qunar.com/cn/beijing_city/dt-222/?fromDate=2021-05-23&toDate=2021-05-24&hotelSource=5403
 
-#### ![image-20210523125944692](/Users/oran/Library/Application Support/typora-user-images/image-20210523125944692.png)
+#### ![image](https://github.com/Orangq/tencent_map_demo/blob/master/src/assets/image-20210523125944692.png)
 
 #### 4、腾讯地图key可去官网申请，项目中key可能失效
