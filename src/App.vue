@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <TencentMap :visible.sync="visible" />
+    <TencentMap :visible.sync="visible" :mapKey="mapKey"/>
     <el-button @click="handleShow">打开地图弹窗</el-button>
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       visible: false,
-      mapKey: ''
+      mapKey: 'FTIBZ-HXMLF-XEMJY-J7ZJL-KJQOK-X7FXW'
     }
   },
   methods: {
