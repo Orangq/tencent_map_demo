@@ -1,16 +1,28 @@
 <template>
   <div id="app">
-    
+    <TencentMap :visible.sync="visible" />
+    <el-button @click="handleShow">打开地图弹窗</el-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TencentMap from './tencentMap'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TencentMap
+  },
+  data() {
+    return {
+      visible: false,
+      mapKey: ''
+    }
+  },
+  methods: {
+    handleShow() {
+      this.visible = true
+    }
   }
 }
 </script>
